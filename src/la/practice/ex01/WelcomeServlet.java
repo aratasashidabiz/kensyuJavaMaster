@@ -12,6 +12,7 @@ import java.io.PrintWriter;
 public class WelcomeServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+
         PrintWriter out = response.getWriter();
 
         out.println("<h1>Welcome</h1><br>");
