@@ -1,4 +1,4 @@
-package la.practice.ex01;
+package la.practice.ex02;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -7,14 +7,17 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
-@WebServlet("/welcome")
-public class WelcomeServlet extends HttpServlet {
+@WebServlet("/date")
+public class DisplayDateServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        PrintWriter out =  response.getWriter();
+        Date d = new Date();
+        SimpleDateFormat date = new SimpleDateFormat("yyyy/MM/ss");
 
-        PrintWriter out = response.getWriter();
-        out.println("<h1>Welcome</h1><br>");
-        out.println("It's a subclass of HttpServlet");
+        out.println("Today is "+date.format(d));
     }
 }
