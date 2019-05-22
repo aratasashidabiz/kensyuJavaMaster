@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="j-master:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/j_master_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="j-master/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="j-master" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="jdbc" />
+          <element id="library" level="project" name="jstl.jar" />
+          <element id="library" level="project" name="standard.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

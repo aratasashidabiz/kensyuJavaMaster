@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="jstl.jar" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$USER_HOME$/Downloads/jakarta-taglibs-standard-1.1.1/lib/jstl.jar" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$USER_HOME$/Downloads/jakarta-taglibs-standard-1.1.1/lib/jstl.jar" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

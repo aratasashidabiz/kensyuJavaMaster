@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="jakarta-taglibs-standard-1.1.1" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$USER_HOME$/Downloads/jakarta-taglibs-standard-1.1.1" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$USER_HOME$/Downloads/jakarta-taglibs-standard-1.1.1" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="taglibs-standard-jstlel-1.2.5.jar" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$USER_HOME$/Downloads/taglibs-standard-jstlel-1.2.5.jar" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$USER_HOME$/Downloads/taglibs-standard-jstlel-1.2.5.jar" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

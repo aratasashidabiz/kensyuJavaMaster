@@ -1,0 +1,22 @@
+DROP TABLE IF EXISTS item;
+DROP TABLE IF EXISTS category;
+DROP TABLE IF EXISTS customer;
+DROP TABLE IF EXISTS ordered;
+DROP TABLE IF EXISTS ordered_detail;
+
+CREATE TABLE item (
+    code SERIAL PRIMARY KEY,
+    category_code INTEGER,
+    name TEXT,
+    price INTEGER
+);
+CREATE TABLE category (
+    code SERIAL PRIMARY KEY,
+    name TEXT
+);
+CREATE TABLE customer (
+    code SERIAL PRIMARY KEY,
+    name TEXT,
+    address TEXT,
+    tel TEXT,
+    email TEXT
