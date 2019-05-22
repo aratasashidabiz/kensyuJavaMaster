@@ -6,7 +6,7 @@
     
     <servlet>
         <servlet-name>la.practice.WebServlet01</servlet-name>
-        <servlet-class>la.practice.WebServlet01</servlet-class>
+        <servlet-class>la.practice01.WebServlet01</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>la.practice.WebServlet01</servlet-name>
