@@ -1,4 +1,4 @@
-package la.practice01;
+package la.practice.ex01;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

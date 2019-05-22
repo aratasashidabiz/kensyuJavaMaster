@@ -5,11 +5,11 @@
          version="4.0">
 
     <servlet>
-        <servlet-name>la.practice01.WebServlet01</servlet-name>
-        <servlet-class>la.practice01.WebServlet01</servlet-class>
+        <servlet-name>la.practice.ex01.WebServlet01</servlet-name>
+        <servlet-class>la.practice.ex01.WebServlet01</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>la.practice01.WebServlet01</servlet-name>
+        <servlet-name>la.practice.ex01.WebServlet01</servlet-name>
         <url-pattern>/welcome</url-pattern>
     </servlet-mapping>
 </web-app>
