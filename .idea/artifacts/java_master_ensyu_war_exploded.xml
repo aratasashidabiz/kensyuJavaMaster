@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="java-master-ensyu:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/java_master_ensyu_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="java-master-ensyu/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="java-master-ensyu" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
