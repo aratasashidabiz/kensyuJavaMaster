@@ -17,7 +17,8 @@ public class WebServlet01 extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
         out.println("<html><head><title>Welcome</title></head><body>");
-        out.println("Welcome to the first page.");
+        out.println("<h1>Welcome Servlet</h1>");
+        out.println("<p>It is a subclass of HTTPServlet</p>");
         out.println("</body></html>");
     }
 
